@@ -5,3 +5,5 @@ age = int(input("Enter  ")) # change data type of input from str to int
 age2 = (input("Enter ")) # bydefault input is str 
 print(type(age))
 print(type(age2))
+
+

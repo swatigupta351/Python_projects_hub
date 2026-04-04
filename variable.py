@@ -1,6 +1,7 @@
 # Data types 
 # int , float , string, boolean ( True False ), None( nothing in variable)
 # Variables ( Identifires) , alaphabet , digit , _
+# Keywords - reserve words in python 
 a = "swati" # string
 b = 5 # int
 c = 5.5 # float 

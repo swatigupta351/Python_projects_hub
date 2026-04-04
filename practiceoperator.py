@@ -18,7 +18,7 @@ print("Average of numbers :", average)
 
 # WAP to input 2 int numbers, a and b.Print True if a is greater than or equal to b . if not print false.
 
-c = int(input("Enter 1st number"))
-d = int(input("Enter 2nd number"))
+c = int(input("Enter 1st number: "))
+d = int(input("Enter 2nd number: "))
 print(c > d )
 

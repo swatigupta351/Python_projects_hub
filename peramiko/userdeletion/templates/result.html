@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Results</title>
+</head>
+
+<body style="font-family: Arial; text-align:center;">
+
+<h2>Execution Results</h2>
+
+<br>
+
+<a href="/download">
+    <button>Download Result Excel</button>
+</a>
+
+<br><br>
+
+{% for r in results %}
+    <p>{{ r }}</p>
+{% endfor %}
+
+<br>
+<a href="/">⬅ Go Back</a>
+<br>
+
+</body>
+</html>

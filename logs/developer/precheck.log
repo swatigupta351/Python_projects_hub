@@ -1,0 +1,172 @@
+2026-05-25 12:16:21 | INFO | _internal.py:97 | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://172.20.15.204:8000
+2026-05-25 12:16:21 | INFO | _internal.py:97 | [33mPress CTRL+C to quit[0m
+2026-05-25 12:16:21 | INFO | _internal.py:97 |  * Restarting with stat
+2026-05-25 12:16:21 | WARNING | _internal.py:97 |  * Debugger is active!
+2026-05-25 12:16:21 | INFO | _internal.py:97 |  * Debugger PIN: 929-609-018
+2026-05-25 12:16:25 | INFO | app.py:90 | SIGNUM=ANONYMOUS | GET /
+2026-05-25 12:16:25 | INFO | _internal.py:97 | 127.0.0.1 - - [25/May/2026 06:46:25] "[32mGET / HTTP/1.1[0m" 302 -
+2026-05-25 12:16:25 | INFO | app.py:90 | SIGNUM=ANONYMOUS | GET /login
+2026-05-25 12:16:25 | INFO | _internal.py:97 | 127.0.0.1 - - [25/May/2026 06:46:25] "GET /login HTTP/1.1" 200 -
+2026-05-25 12:16:25 | INFO | _internal.py:97 | 127.0.0.1 - - [25/May/2026 06:46:25] "GET /static/css/body.css HTTP/1.1" 200 -
+2026-05-25 12:16:26 | INFO | _internal.py:97 | 127.0.0.1 - - [25/May/2026 06:46:26] "GET /static/css/login.css HTTP/1.1" 200 -
+2026-05-25 12:16:26 | INFO | app.py:90 | SIGNUM=ANONYMOUS | GET /favicon.ico
+2026-05-25 12:16:26 | ERROR | app.py:147 | GLOBAL ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2026-05-25 12:16:26 | INFO | _internal.py:97 | 127.0.0.1 - - [25/May/2026 06:46:26] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2026-05-25 12:16:48 | INFO | app.py:90 | SIGNUM=ANONYMOUS | POST /login
+2026-05-25 12:16:48 | INFO | _internal.py:97 | 127.0.0.1 - - [25/May/2026 06:46:48] "POST /login HTTP/1.1" 200 -
+2026-05-25 12:16:48 | INFO | _internal.py:97 | 127.0.0.1 - - [25/May/2026 06:46:48] "[36mGET /static/css/body.css HTTP/1.1[0m" 304 -
+2026-05-25 12:16:49 | INFO | _internal.py:97 | 127.0.0.1 - - [25/May/2026 06:46:49] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2026-05-25 12:16:49 | INFO | app.py:90 | SIGNUM=ANONYMOUS | GET /favicon.ico
+2026-05-25 12:16:49 | ERROR | app.py:147 | GLOBAL ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2026-05-25 12:16:49 | INFO | _internal.py:97 | 127.0.0.1 - - [25/May/2026 06:46:49] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2026-05-25 12:17:01 | INFO | app.py:90 | SIGNUM=ANONYMOUS | POST /login
+2026-05-25 12:17:01 | INFO | _internal.py:97 | 127.0.0.1 - - [25/May/2026 06:47:01] "POST /login HTTP/1.1" 200 -
+2026-05-25 12:17:01 | INFO | _internal.py:97 | 127.0.0.1 - - [25/May/2026 06:47:01] "[36mGET /static/css/body.css HTTP/1.1[0m" 304 -
+2026-05-25 12:17:01 | INFO | _internal.py:97 | 127.0.0.1 - - [25/May/2026 06:47:01] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2026-05-25 12:17:01 | INFO | app.py:90 | SIGNUM=ANONYMOUS | GET /favicon.ico
+2026-05-25 12:17:01 | ERROR | app.py:147 | GLOBAL ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2026-05-25 12:17:01 | INFO | _internal.py:97 | 127.0.0.1 - - [25/May/2026 06:47:01] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2026-05-25 12:17:12 | INFO | app.py:90 | SIGNUM=ANONYMOUS | GET /forgot-password
+2026-05-25 12:17:12 | INFO | _internal.py:97 | 127.0.0.1 - - [25/May/2026 06:47:12] "GET /forgot-password HTTP/1.1" 200 -
+2026-05-25 12:17:12 | INFO | _internal.py:97 | 127.0.0.1 - - [25/May/2026 06:47:12] "GET /static/css/forgot_password.css HTTP/1.1" 200 -
+2026-05-25 12:17:13 | INFO | app.py:90 | SIGNUM=ANONYMOUS | GET /favicon.ico
+2026-05-25 12:17:13 | ERROR | app.py:147 | GLOBAL ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2026-05-25 12:17:13 | INFO | _internal.py:97 | 127.0.0.1 - - [25/May/2026 06:47:13] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2026-05-25 12:17:22 | INFO | app.py:90 | SIGNUM=ANONYMOUS | GET /login
+2026-05-25 12:17:22 | INFO | _internal.py:97 | 127.0.0.1 - - [25/May/2026 06:47:22] "GET /login HTTP/1.1" 200 -
+2026-05-25 12:17:22 | INFO | _internal.py:97 | 127.0.0.1 - - [25/May/2026 06:47:22] "[36mGET /static/css/body.css HTTP/1.1[0m" 304 -
+2026-05-25 12:17:22 | INFO | _internal.py:97 | 127.0.0.1 - - [25/May/2026 06:47:22] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2026-05-25 12:17:23 | INFO | app.py:90 | SIGNUM=ANONYMOUS | GET /favicon.ico
+2026-05-25 12:17:23 | ERROR | app.py:147 | GLOBAL ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2026-05-25 12:17:23 | INFO | _internal.py:97 | 127.0.0.1 - - [25/May/2026 06:47:23] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2026-05-25 12:17:26 | INFO | app.py:90 | SIGNUM=ANONYMOUS | GET /register
+2026-05-25 12:17:26 | INFO | _internal.py:97 | 127.0.0.1 - - [25/May/2026 06:47:26] "GET /register HTTP/1.1" 200 -
+2026-05-25 12:17:26 | ERROR | app.py:147 | GLOBAL ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2026-05-25 12:17:26 | INFO | _internal.py:97 | 127.0.0.1 - - [25/May/2026 06:47:26] "[35m[1mGET /static/css/base.css HTTP/1.1[0m" 500 -
+2026-05-25 12:17:26 | INFO | _internal.py:97 | 127.0.0.1 - - [25/May/2026 06:47:26] "GET /static/css/ragister.css HTTP/1.1" 200 -
+2026-05-25 12:17:26 | INFO | app.py:90 | SIGNUM=ANONYMOUS | GET /favicon.ico
+2026-05-25 12:17:26 | ERROR | app.py:147 | GLOBAL ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2026-05-25 12:17:26 | INFO | _internal.py:97 | 127.0.0.1 - - [25/May/2026 06:47:26] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2026-05-25 12:18:05 | INFO | app.py:90 | SIGNUM=ANONYMOUS | POST /register
+2026-05-25 12:18:05 | INFO | _internal.py:97 | 127.0.0.1 - - [25/May/2026 06:48:05] "POST /register HTTP/1.1" 200 -
+2026-05-25 12:18:05 | ERROR | app.py:147 | GLOBAL ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2026-05-25 12:18:05 | INFO | _internal.py:97 | 127.0.0.1 - - [25/May/2026 06:48:05] "[35m[1mGET /static/css/base.css HTTP/1.1[0m" 500 -
+2026-05-25 12:18:05 | INFO | _internal.py:97 | 127.0.0.1 - - [25/May/2026 06:48:05] "[36mGET /static/css/ragister.css HTTP/1.1[0m" 304 -
+2026-05-25 12:18:06 | INFO | app.py:90 | SIGNUM=ANONYMOUS | GET /favicon.ico
+2026-05-25 12:18:06 | ERROR | app.py:147 | GLOBAL ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2026-05-25 12:18:06 | INFO | _internal.py:97 | 127.0.0.1 - - [25/May/2026 06:48:06] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2026-05-25 12:18:34 | INFO | app.py:90 | SIGNUM=ANONYMOUS | POST /register
+2026-05-25 12:18:34 | INFO | app.py:225 | User registered: ram.jat@ericsson.com
+2026-05-25 12:18:34 | INFO | _internal.py:97 | 127.0.0.1 - - [25/May/2026 06:48:34] "[32mPOST /register HTTP/1.1[0m" 302 -
+2026-05-25 12:18:35 | INFO | app.py:90 | SIGNUM=ANONYMOUS | GET /login
+2026-05-25 12:18:35 | INFO | _internal.py:97 | 127.0.0.1 - - [25/May/2026 06:48:35] "GET /login HTTP/1.1" 200 -
+2026-05-25 12:18:35 | INFO | _internal.py:97 | 127.0.0.1 - - [25/May/2026 06:48:35] "[36mGET /static/css/body.css HTTP/1.1[0m" 304 -
+2026-05-25 12:18:35 | INFO | _internal.py:97 | 127.0.0.1 - - [25/May/2026 06:48:35] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2026-05-25 12:18:35 | INFO | app.py:90 | SIGNUM=ANONYMOUS | GET /favicon.ico
+2026-05-25 12:18:35 | ERROR | app.py:147 | GLOBAL ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2026-05-25 12:18:35 | INFO | _internal.py:97 | 127.0.0.1 - - [25/May/2026 06:48:35] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2026-05-25 12:18:50 | INFO | app.py:90 | SIGNUM=ANONYMOUS | POST /login
+2026-05-25 12:18:51 | INFO | _internal.py:97 | 127.0.0.1 - - [25/May/2026 06:48:51] "POST /login HTTP/1.1" 200 -
+2026-05-25 12:18:51 | INFO | _internal.py:97 | 127.0.0.1 - - [25/May/2026 06:48:51] "[36mGET /static/css/body.css HTTP/1.1[0m" 304 -
+2026-05-25 12:18:51 | INFO | _internal.py:97 | 127.0.0.1 - - [25/May/2026 06:48:51] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2026-05-25 12:18:51 | INFO | app.py:90 | SIGNUM=ANONYMOUS | GET /favicon.ico
+2026-05-25 12:18:51 | ERROR | app.py:147 | GLOBAL ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2026-05-25 12:18:51 | INFO | _internal.py:97 | 127.0.0.1 - - [25/May/2026 06:48:51] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2026-05-25 12:19:02 | INFO | app.py:90 | SIGNUM=ANONYMOUS | POST /login
+2026-05-25 12:19:03 | INFO | app.py:250 | SIGNUM=etjrmaa | EVENT=LOGIN_SUCCESS
+2026-05-25 12:19:03 | INFO | _internal.py:97 | 127.0.0.1 - - [25/May/2026 06:49:03] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-05-25 12:19:03 | INFO | app.py:90 | SIGNUM=etjrmaa | GET /dashboard
+2026-05-25 12:19:03 | INFO | _internal.py:97 | 127.0.0.1 - - [25/May/2026 06:49:03] "GET /dashboard HTTP/1.1" 200 -
+2026-05-25 12:19:03 | INFO | _internal.py:97 | 127.0.0.1 - - [25/May/2026 06:49:03] "GET /static/css/dashboard.css HTTP/1.1" 200 -
+2026-05-25 12:19:03 | INFO | _internal.py:97 | 127.0.0.1 - - [25/May/2026 06:49:03] "[36mGET /static/css/body.css HTTP/1.1[0m" 304 -
+2026-05-25 12:19:03 | INFO | _internal.py:97 | 127.0.0.1 - - [25/May/2026 06:49:03] "GET /static/images/ericsson.png HTTP/1.1" 200 -
+2026-05-25 12:19:03 | INFO | app.py:90 | SIGNUM=etjrmaa | GET /favicon.ico
+2026-05-25 12:19:03 | ERROR | app.py:147 | GLOBAL ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2026-05-25 12:19:03 | INFO | _internal.py:97 | 127.0.0.1 - - [25/May/2026 06:49:03] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2026-05-25 12:20:53 | INFO | app.py:90 | SIGNUM=etjrmaa | POST /upload
+2026-05-25 12:20:54 | INFO | app.py:365 | Uploaded 2 records
+2026-05-25 12:20:54 | INFO | _internal.py:97 | 127.0.0.1 - - [25/May/2026 06:50:54] "[32mPOST /upload HTTP/1.1[0m" 302 -
+2026-05-25 12:20:54 | INFO | app.py:90 | SIGNUM=etjrmaa | GET /dashboard
+2026-05-25 12:20:54 | INFO | _internal.py:97 | 127.0.0.1 - - [25/May/2026 06:50:54] "GET /dashboard HTTP/1.1" 200 -
+2026-05-25 12:20:54 | INFO | _internal.py:97 | 127.0.0.1 - - [25/May/2026 06:50:54] "[36mGET /static/css/body.css HTTP/1.1[0m" 304 -
+2026-05-25 12:20:54 | INFO | _internal.py:97 | 127.0.0.1 - - [25/May/2026 06:50:54] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2026-05-25 12:20:54 | INFO | _internal.py:97 | 127.0.0.1 - - [25/May/2026 06:50:54] "[36mGET /static/images/ericsson.png HTTP/1.1[0m" 304 -
+2026-05-25 12:20:55 | INFO | app.py:90 | SIGNUM=etjrmaa | GET /favicon.ico
+2026-05-25 12:20:55 | ERROR | app.py:147 | GLOBAL ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2026-05-25 12:20:55 | INFO | _internal.py:97 | 127.0.0.1 - - [25/May/2026 06:50:55] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2026-05-25 12:21:23 | INFO | app.py:90 | SIGNUM=etjrmaa | POST /execute-precheck
+2026-05-25 12:21:23 | INFO | app.py:410 | SIGNUM=etjrmaa | PRECHECK_START | IP=172.31.3.229
+2026-05-25 12:21:23 | INFO | prechecks.py:169 | CONNECT: Jump=None → Target=172.31.3.229
+2026-05-25 12:21:34 | ERROR | prechecks.py:309 | SSH FAILED: 172.31.3.229 | End Of File (EOF). Exception style platform.
+<pexpect.pty_spawn.spawn object at 0x72147edd4560>
+command: /usr/bin/ssh
+args: [b'/usr/bin/ssh', b'-o', b'StrictHostKeyChecking=no', b'-o', b'UserKnownHostsFile=/dev/null', b'None@None']
+buffer (last 100 chars): ''
+before (last 100 chars): 'ssh: Could not resolve hostname none: Temporary failure in name resolution\r\r\n'
+after: <class 'pexpect.exceptions.EOF'>
+match: None
+match_index: None
+exitstatus: 255
+flag_eof: True
+pid: 206298
+child_fd: 14
+closed: False
+timeout: 25
+delimiter: <class 'pexpect.exceptions.EOF'>
+logfile: <_io.TextIOWrapper name='/home/swati/swati_projects/python_projects/logs/sessions/session_20260525_065123_058a38/172.31.3.229.log' mode='a' encoding='utf-8'>
+logfile_read: None
+logfile_send: None
+maxread: 2000
+ignorecase: False
+searchwindowsize: None
+delaybeforesend: 0.05
+delayafterclose: 0.1
+delayafterterminate: 0.1
+searcher: searcher_re:
+    0: re.compile('password:')
+    1: re.compile('yes/no')
+    2: re.compile('.*[\\$#>] ?$')
+    3: TIMEOUT
+2026-05-25 12:21:34 | WARNING | prechecks.py:399 | 172.31.3.229 RETRY 1
+2026-05-25 12:21:35 | INFO | prechecks.py:169 | CONNECT: Jump=None → Target=172.31.3.229
+2026-05-25 12:21:45 | ERROR | prechecks.py:309 | SSH FAILED: 172.31.3.229 | End Of File (EOF). Exception style platform.
+<pexpect.pty_spawn.spawn object at 0x72147eec3830>
+command: /usr/bin/ssh
+args: [b'/usr/bin/ssh', b'-o', b'StrictHostKeyChecking=no', b'-o', b'UserKnownHostsFile=/dev/null', b'None@None']
+buffer (last 100 chars): ''
+before (last 100 chars): 'ssh: Could not resolve hostname none: Temporary failure in name resolution\r\r\n'
+after: <class 'pexpect.exceptions.EOF'>
+match: None
+match_index: None
+exitstatus: 255
+flag_eof: True
+pid: 206331
+child_fd: 15
+closed: False
+timeout: 25
+delimiter: <class 'pexpect.exceptions.EOF'>
+logfile: <_io.TextIOWrapper name='/home/swati/swati_projects/python_projects/logs/sessions/session_20260525_065123_058a38/172.31.3.229.log' mode='a' encoding='utf-8'>
+logfile_read: None
+logfile_send: None
+maxread: 2000
+ignorecase: False
+searchwindowsize: None
+delaybeforesend: 0.05
+delayafterclose: 0.1
+delayafterterminate: 0.1
+searcher: searcher_re:
+    0: re.compile('password:')
+    1: re.compile('yes/no')
+    2: re.compile('.*[\\$#>] ?$')
+    3: TIMEOUT
+2026-05-25 12:21:45 | WARNING | prechecks.py:399 | 172.31.3.229 RETRY 2
+2026-05-25 12:21:47 | ERROR | prechecks.py:583 | 172.31.3.229 FAILED after retries
+2026-05-25 12:21:47 | INFO | app.py:423 | DONE 172.31.3.229
+2026-05-25 12:21:47 | INFO | _internal.py:97 | 127.0.0.1 - - [25/May/2026 06:51:47] "POST /execute-precheck HTTP/1.1" 200 -
+2026-05-25 12:21:47 | INFO | _internal.py:97 | 127.0.0.1 - - [25/May/2026 06:51:47] "GET /static/css/precheckresult.css HTTP/1.1" 200 -
+2026-05-25 12:21:48 | INFO | app.py:90 | SIGNUM=etjrmaa | GET /favicon.ico
+2026-05-25 12:21:48 | ERROR | app.py:147 | GLOBAL ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2026-05-25 12:21:48 | INFO | _internal.py:97 | 127.0.0.1 - - [25/May/2026 06:51:48] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -

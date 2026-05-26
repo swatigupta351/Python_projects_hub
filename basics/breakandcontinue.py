@@ -16,13 +16,7 @@ while i <= 10 :
     print(i)
     i+= 1   
 
-# for loops are used for sequencial transverse. For travilling list , tuple, string.
 
-# Use for loop → when the number of iterations is known.
-# Use while loop → when the number of iterations is not known.
-
-# for el in my_list :
-#     print(el)
 
 nums = [1, 2, 3, 4, 5]
 for num in nums :
@@ -36,6 +30,7 @@ for ch in str :
     if ch == 'o' :
         continue
     print(ch)
+    
 
 
     

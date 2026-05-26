@@ -7,7 +7,7 @@ students = {
     "David": 21,
     "Eve": 20
 }
-print("The students and their ages are:")
+print("List of students with their ages:")
 print(students)
 print(type(students))
 print(students["Alice"]) # Accessing value using key
@@ -54,5 +54,4 @@ set1 = {1,2,3,2,4,4,1,6,7}
 set2 = {4,5,2,6,1,2,7,4}
 print(set1.union(set2)) # combine both sets value remove duplicates
 print(set1.intersection(set2)) # common in both sets 
-
-
+print(set1.difference(set2)) # elements in set1 but not in set2

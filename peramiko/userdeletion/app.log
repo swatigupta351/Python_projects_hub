@@ -1,0 +1,124 @@
+2026-04-29 09:50:07,282 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-29 09:50:07,282 | INFO | [33mPress CTRL+C to quit[0m
+2026-04-29 09:50:07,283 | INFO |  * Restarting with stat
+2026-04-29 09:50:07,868 | WARNING |  * Debugger is active!
+2026-04-29 09:50:07,894 | INFO |  * Debugger PIN: 118-514-113
+2026-04-29 09:50:10,086 | INFO | Home page accessed
+2026-04-29 09:50:10,102 | INFO | 127.0.0.1 - - [29/Apr/2026 09:50:10] "GET / HTTP/1.1" 200 -
+2026-04-29 09:50:10,207 | INFO | 127.0.0.1 - - [29/Apr/2026 09:50:10] "[36mGET /static/ericsson.png HTTP/1.1[0m" 304 -
+2026-04-29 09:50:10,263 | INFO | 127.0.0.1 - - [29/Apr/2026 09:50:10] "[36mGET /static/airtel1-removebg-preview.png HTTP/1.1[0m" 304 -
+2026-04-29 09:50:26,397 | INFO | Processing 13.200.237.100 - test
+2026-04-29 09:50:26,397 | INFO | Processing started: 13.200.237.100 - test
+2026-04-29 09:50:26,397 | INFO | 13.200.237.100 → Connecting SSH
+2026-04-29 09:50:26,483 | INFO | Connected (version 2.0, client OpenSSH_9.9)
+2026-04-29 09:50:26,727 | INFO | Authentication (publickey) successful!
+2026-04-29 09:50:26,727 | INFO | 13.200.237.100 → SSH connected
+2026-04-29 09:50:26,728 | INFO | Executing: id test
+2026-04-29 09:50:27,077 | WARNING | Command error: id: ‘test’: no such user
+2026-04-29 09:50:27,078 | INFO | 13.200.237.100 → Connection closed
+2026-04-29 09:50:27,078 | INFO | Processing 13.201.194.16 - test
+2026-04-29 09:50:27,078 | INFO | Processing started: 13.201.194.16 - test
+2026-04-29 09:50:27,078 | INFO | 13.201.194.16 → Connecting SSH
+2026-04-29 09:50:27,183 | INFO | Connected (version 2.0, client OpenSSH_9.9)
+2026-04-29 09:50:27,500 | INFO | Authentication (publickey) successful!
+2026-04-29 09:50:27,500 | INFO | 13.201.194.16 → SSH connected
+2026-04-29 09:50:27,500 | INFO | Executing: id test
+2026-04-29 09:50:27,688 | WARNING | Command error: id: ‘test’: no such user
+2026-04-29 09:50:27,688 | INFO | 13.201.194.16 → Connection closed
+2026-04-29 09:50:27,715 | INFO | 127.0.0.1 - - [29/Apr/2026 09:50:27] "POST /upload HTTP/1.1" 200 -
+2026-04-29 09:51:06,048 | INFO | Home page accessed
+2026-04-29 09:51:06,053 | INFO | 127.0.0.1 - - [29/Apr/2026 09:51:06] "GET / HTTP/1.1" 200 -
+2026-04-29 09:51:06,113 | INFO | 127.0.0.1 - - [29/Apr/2026 09:51:06] "[36mGET /static/ericsson.png HTTP/1.1[0m" 304 -
+2026-04-29 09:51:06,124 | INFO | 127.0.0.1 - - [29/Apr/2026 09:51:06] "[36mGET /static/airtel1-removebg-preview.png HTTP/1.1[0m" 304 -
+2026-04-29 09:51:15,745 | INFO | Processing 13.200.237.100 - test1
+2026-04-29 09:51:15,746 | INFO | Processing started: 13.200.237.100 - test1
+2026-04-29 09:51:15,746 | INFO | 13.200.237.100 → Connecting SSH
+2026-04-29 09:51:15,819 | INFO | Connected (version 2.0, client OpenSSH_9.9)
+2026-04-29 09:51:16,059 | INFO | Authentication (publickey) successful!
+2026-04-29 09:51:16,059 | INFO | 13.200.237.100 → SSH connected
+2026-04-29 09:51:16,059 | INFO | Executing: id test1
+2026-04-29 09:51:16,360 | INFO | Executing: grep '^test1:' /etc/passwd
+2026-04-29 09:51:16,510 | INFO | Executing: ps -u test1
+2026-04-29 09:51:16,677 | INFO | Executing: sudo userdel test1
+2026-04-29 09:51:16,910 | INFO | 13.200.237.100 → User deleted
+2026-04-29 09:51:16,910 | INFO | Executing: id test1
+2026-04-29 09:51:17,069 | WARNING | Command error: id: ‘test1’: no such user
+2026-04-29 09:51:17,069 | INFO | 13.200.237.100 → Deletion verified
+2026-04-29 09:51:17,069 | INFO | 13.200.237.100 → Connection closed
+2026-04-29 09:51:17,069 | INFO | Processing 13.201.194.16 - test1
+2026-04-29 09:51:17,069 | INFO | Processing started: 13.201.194.16 - test1
+2026-04-29 09:51:17,069 | INFO | 13.201.194.16 → Connecting SSH
+2026-04-29 09:51:17,144 | INFO | Connected (version 2.0, client OpenSSH_9.9)
+2026-04-29 09:51:17,400 | INFO | Authentication (publickey) successful!
+2026-04-29 09:51:17,400 | INFO | 13.201.194.16 → SSH connected
+2026-04-29 09:51:17,400 | INFO | Executing: id test1
+2026-04-29 09:51:17,567 | INFO | Executing: grep '^test1:' /etc/passwd
+2026-04-29 09:51:17,731 | INFO | Executing: ps -u test1
+2026-04-29 09:51:17,907 | INFO | Executing: sudo userdel test1
+2026-04-29 09:51:18,296 | INFO | 13.201.194.16 → User deleted
+2026-04-29 09:51:18,297 | INFO | Executing: id test1
+2026-04-29 09:51:18,457 | WARNING | Command error: id: ‘test1’: no such user
+2026-04-29 09:51:18,457 | INFO | 13.201.194.16 → Deletion verified
+2026-04-29 09:51:18,457 | INFO | 13.201.194.16 → Connection closed
+2026-04-29 09:51:18,478 | INFO | 127.0.0.1 - - [29/Apr/2026 09:51:18] "POST /upload HTTP/1.1" 200 -
+2026-05-03 07:22:42,243 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-05-03 07:22:42,244 | INFO | [33mPress CTRL+C to quit[0m
+2026-05-03 07:22:42,246 | INFO |  * Restarting with stat
+2026-05-03 07:22:42,763 | WARNING |  * Debugger is active!
+2026-05-03 07:22:42,784 | INFO |  * Debugger PIN: 138-795-030
+2026-05-03 07:22:44,779 | INFO | Home page accessed
+2026-05-03 07:22:44,784 | INFO | 127.0.0.1 - - [03/May/2026 07:22:44] "GET / HTTP/1.1" 200 -
+2026-05-03 07:22:44,805 | INFO | 127.0.0.1 - - [03/May/2026 07:22:44] "GET /static/ericsson.png HTTP/1.1" 200 -
+2026-05-03 07:22:44,859 | INFO | 127.0.0.1 - - [03/May/2026 07:22:44] "GET /static/airtel1-removebg-preview.png HTTP/1.1" 200 -
+2026-05-03 07:23:23,055 | INFO | Processing 13.200.237.100 - test1
+2026-05-03 07:23:23,055 | INFO | Processing started: 13.200.237.100 - test1
+2026-05-03 07:23:23,055 | INFO | 13.200.237.100 → Connecting SSH
+2026-05-03 07:23:33,066 | ERROR | 13.200.237.100 → SSH failed: timed out
+2026-05-03 07:23:33,066 | INFO | 13.200.237.100 → Connection closed
+2026-05-03 07:23:33,067 | INFO | Processing 13.201.194.16 - test1
+2026-05-03 07:23:33,068 | INFO | Processing started: 13.201.194.16 - test1
+2026-05-03 07:23:33,068 | INFO | 13.201.194.16 → Connecting SSH
+2026-05-03 07:23:43,079 | ERROR | 13.201.194.16 → SSH failed: timed out
+2026-05-03 07:23:43,079 | INFO | 13.201.194.16 → Connection closed
+2026-05-03 07:23:43,079 | INFO | Processing 13.201.194.17 - test1
+2026-05-03 07:23:43,079 | INFO | Processing started: 13.201.194.17 - test1
+2026-05-03 07:23:43,079 | INFO | 13.201.194.17 → Connecting SSH
+2026-05-03 07:23:48,127 | INFO | 127.0.0.1 - - [03/May/2026 07:23:48] "[33mGET /dashboard HTTP/1.1[0m" 404 -
+2026-05-03 07:23:53,095 | ERROR | 13.201.194.17 → SSH failed: timed out
+2026-05-03 07:23:53,095 | INFO | 13.201.194.17 → Connection closed
+2026-05-03 07:23:53,095 | INFO | Processing 13.201.194.18 - test2
+2026-05-03 07:23:53,095 | INFO | Processing started: 13.201.194.18 - test2
+2026-05-03 07:23:53,095 | INFO | 13.201.194.18 → Connecting SSH
+2026-05-03 07:24:03,106 | ERROR | 13.201.194.18 → SSH failed: timed out
+2026-05-03 07:24:03,107 | INFO | 13.201.194.18 → Connection closed
+2026-05-03 07:24:03,107 | INFO | Processing 13.201.194.19 - test2
+2026-05-03 07:24:03,107 | INFO | Processing started: 13.201.194.19 - test2
+2026-05-03 07:24:03,108 | INFO | 13.201.194.19 → Connecting SSH
+2026-05-03 07:24:13,119 | ERROR | 13.201.194.19 → SSH failed: timed out
+2026-05-03 07:24:13,119 | INFO | 13.201.194.19 → Connection closed
+2026-05-03 07:24:13,119 | INFO | Processing 13.201.194.20 - test2
+2026-05-03 07:24:13,119 | INFO | Processing started: 13.201.194.20 - test2
+2026-05-03 07:24:13,119 | INFO | 13.201.194.20 → Connecting SSH
+2026-05-03 07:24:23,130 | ERROR | 13.201.194.20 → SSH failed: timed out
+2026-05-03 07:24:23,130 | INFO | 13.201.194.20 → Connection closed
+2026-05-03 07:24:23,130 | INFO | Processing 13.201.194.21 - test2
+2026-05-03 07:24:23,130 | INFO | Processing started: 13.201.194.21 - test2
+2026-05-03 07:24:23,131 | INFO | 13.201.194.21 → Connecting SSH
+2026-05-03 07:24:23,240 | INFO | Connected (version 2.0, client OpenSSH_9.6p1)
+2026-05-03 07:24:23,634 | INFO | Authentication (publickey) failed.
+2026-05-03 07:24:23,869 | ERROR | 13.201.194.21 → SSH failed: encountered RSA key, expected OPENSSH key
+2026-05-03 07:24:23,869 | INFO | 13.201.194.21 → Connection closed
+2026-05-03 07:24:23,870 | INFO | Processing 13.201.194.22 - test3
+2026-05-03 07:24:23,870 | INFO | Processing started: 13.201.194.22 - test3
+2026-05-03 07:24:23,870 | INFO | 13.201.194.22 → Connecting SSH
+2026-05-03 07:24:33,880 | ERROR | 13.201.194.22 → SSH failed: timed out
+2026-05-03 07:24:33,880 | INFO | 13.201.194.22 → Connection closed
+2026-05-03 07:24:33,881 | INFO | Processing 13.201.194.23 - test3
+2026-05-03 07:24:33,881 | INFO | Processing started: 13.201.194.23 - test3
+2026-05-03 07:24:33,881 | INFO | 13.201.194.23 → Connecting SSH
+2026-05-03 07:24:43,896 | ERROR | 13.201.194.23 → SSH failed: timed out
+2026-05-03 07:24:43,896 | INFO | 13.201.194.23 → Connection closed
+2026-05-03 07:24:43,927 | INFO | 127.0.0.1 - - [03/May/2026 07:24:43] "POST /upload HTTP/1.1" 200 -
+2026-05-03 07:28:14,515 | INFO | 127.0.0.1 - - [03/May/2026 07:28:14] "[33mGET /dashboard HTTP/1.1[0m" 404 -

@@ -1,0 +1,68 @@
+
+============================
+COMMAND: id test
+OUTPUT:
+
+ERROR:
+id: ‘test’: no such user
+
+============================
+COMMAND: id test
+OUTPUT:
+
+ERROR:
+id: ‘test’: no such user
+
+============================
+COMMAND: id test1
+OUTPUT:
+uid=1002(test1) gid=1002(test1) groups=1002(test1)
+
+============================
+COMMAND: grep '^test1:' /etc/passwd
+OUTPUT:
+test1:x:1002:1002::/home/test1:/sbin/nologin
+
+============================
+COMMAND: ps -u test1
+OUTPUT:
+PID TTY          TIME CMD
+
+============================
+COMMAND: sudo userdel test1
+OUTPUT:
+
+
+============================
+COMMAND: id test1
+OUTPUT:
+
+ERROR:
+id: ‘test1’: no such user
+
+============================
+COMMAND: id test1
+OUTPUT:
+uid=1002(test1) gid=1002(test1) groups=1002(test1)
+
+============================
+COMMAND: grep '^test1:' /etc/passwd
+OUTPUT:
+test1:x:1002:1002::/home/test1:/sbin/nologin
+
+============================
+COMMAND: ps -u test1
+OUTPUT:
+PID TTY          TIME CMD
+
+============================
+COMMAND: sudo userdel test1
+OUTPUT:
+
+
+============================
+COMMAND: id test1
+OUTPUT:
+
+ERROR:
+id: ‘test1’: no such user

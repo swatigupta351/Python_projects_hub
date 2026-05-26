@@ -1,0 +1,25 @@
+
+------- hostname --------
+ip-172-31-2-70.ap-south-1.compute.internal
+[ec2-user@ip-172-31-2-70 ~
+
+------- uptime --------
+10:04:36 up 0 min,  2 users,  load average: 0.62, 0.19, 0.07
+[ec2-user@ip-172-31-2-70 ~
+
+------- whoami --------
+ec2-user
+[ec2-user@ip-172-31-2-70 ~
+
+------- df -h --------
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/xvda3      9.8G  1.9G  8.0G  19% /
+devtmpfs        441M     0  441M   0% /dev
+tmpfs           476M     0  476M   0% /dev/shm
+tmpfs           191M  3.6M  187M   2% /run
+tmpfs           1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
+/dev/xvda2      200M  8.7M  192M   5% /boot/efi
+tmpfs           1.0M     0  1.0M   0% /run/credentials/getty@tty1.service
+tmpfs           1.0M     0  1.0M   0% /run/credentials/serial-getty@ttyS0.service
+tmpfs            96M  4.0K   96M   1% /run/user/1000
+[ec2-user@ip-172-31-2-70 ~

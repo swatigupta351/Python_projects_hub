@@ -5,7 +5,7 @@
 # else:
 #     statement(s)    
 
-# Indantion is very important in python, it is used to define the scope of the statement. It is used to define the block of code that will be executed if the condition is true. It is also used to define the block of code that will be executed if the condition is false.
+# Indantation is very important in python, it is used to define the scope of the statement. It is used to define the block of code that will be executed if the condition is true. It is also used to define the block of code that will be executed if the condition is false.
 a = 10
 b = 20
 if a > b:

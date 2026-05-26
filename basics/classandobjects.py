@@ -43,8 +43,6 @@ print(math.add(2 , 3))
 
 
 
-
-
 # Real world scenerion : Bank account 
 # account holder name
 # balance
